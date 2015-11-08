@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.l.flicbank.UserInfo"
+    android:background="#FFC107">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Instructions to Set FlicBank:"
+            android:id="@+id/instructions_text_view"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:textSize="25dp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. You must click 3 times in 10 seconds."
+            android:id="@+id/tip1_text_view"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. You can single click, double click and hold for a certain time."
+            android:id="@+id/tip2_text_view"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3. Sigle click and holding count for 1 click."
+            android:id="@+id/tip3_text_view"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. You need to input the password twice to match them."
+            android:id="@+id/tip4_text_view"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create password"
+            android:id="@+id/btn_create_pass"
+            android:textColor="#FFC107"
+            android:textSize="25dp"
+            android:background="@drawable/send_button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
